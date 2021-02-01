@@ -17,3 +17,9 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: TimerViewDelegate {
+    func endTimer() {
+        self.view.backgroundColor = .red
+    }
+}
+

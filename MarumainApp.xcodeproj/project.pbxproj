@@ -13,6 +13,8 @@
 		333ADAE625922D7A000A5395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333ADAE425922D7A000A5395 /* Main.storyboard */; };
 		333ADAE825922D7E000A5395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333ADAE725922D7E000A5395 /* Assets.xcassets */; };
 		333ADAEB25922D7E000A5395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333ADAE925922D7E000A5395 /* LaunchScreen.storyboard */; };
+		333ADAF825922E24000A5395 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333ADAF725922E24000A5395 /* TimerView.swift */; };
+		333ADAFC25922E79000A5395 /* TimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333ADAFB25922E79000A5395 /* TimerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		333ADAE725922D7E000A5395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333ADAEA25922D7E000A5395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333ADAEC25922D7E000A5395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333ADAF725922E24000A5395 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		333ADAFB25922E79000A5395 /* TimerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		333ADADD25922D7A000A5395 /* MarumainApp */ = {
 			isa = PBXGroup;
 			children = (
+				333ADAF325922D85000A5395 /* Model */,
+				333ADAF525922D8D000A5395 /* View */,
+				333ADAF625922D9C000A5395 /* Controller */,
 				333ADADE25922D7A000A5395 /* AppDelegate.swift */,
 				333ADAE025922D7A000A5395 /* SceneDelegate.swift */,
-				333ADAE225922D7A000A5395 /* ViewController.swift */,
 				333ADAE425922D7A000A5395 /* Main.storyboard */,
-				333ADAE725922D7E000A5395 /* Assets.xcassets */,
 				333ADAE925922D7E000A5395 /* LaunchScreen.storyboard */,
 				333ADAEC25922D7E000A5395 /* Info.plist */,
 			);
 			path = MarumainApp;
+			sourceTree = "<group>";
+		};
+		333ADAF325922D85000A5395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333ADAF525922D8D000A5395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				333ADAF725922E24000A5395 /* TimerView.swift */,
+				333ADAFB25922E79000A5395 /* TimerView.xib */,
+				333ADAE725922D7E000A5395 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333ADAF625922D9C000A5395 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333ADAE225922D7A000A5395 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +156,7 @@
 			files = (
 				333ADAEB25922D7E000A5395 /* LaunchScreen.storyboard in Resources */,
 				333ADAE825922D7E000A5395 /* Assets.xcassets in Resources */,
+				333ADAFC25922E79000A5395 /* TimerView.xib in Resources */,
 				333ADAE625922D7A000A5395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +170,7 @@
 			files = (
 				333ADAE325922D7A000A5395 /* ViewController.swift in Sources */,
 				333ADADF25922D7A000A5395 /* AppDelegate.swift in Sources */,
+				333ADAF825922E24000A5395 /* TimerView.swift in Sources */,
 				333ADAE125922D7A000A5395 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
